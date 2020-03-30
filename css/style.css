@@ -1,0 +1,20 @@
+.container-fluid{
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.background{
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+.navigation{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.title-section{
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
