@@ -6,7 +6,7 @@
 .background{
   background: url('../images/background.jpg');
   background-repeat: no-repeat;
-  height: 50%;
+  background-size: cover;
 }
 
 .navigation{
