@@ -17,4 +17,33 @@
   text-align: center;
   padding-top: 15%;
   padding-bottom: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+.section{
+  padding-top: 5%;
+  margin-right: 0;
+  text-align: center;
+}
+
+.icon-section{
+  padding: 3%;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
 }
