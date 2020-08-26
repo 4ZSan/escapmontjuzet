@@ -39,6 +39,14 @@
   background-color : #EDFAED;
 }
 
+.section2{
+  margin-right: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color : white;
+}
+
 /*Boxes Sections*/
 
 .icon-section{
@@ -75,11 +83,41 @@
   padding-right: 0%;
 }
 
-.game_card{
+/*.game_card{
   margin-left: 2%;
   margin-right: 2%;
-}
+}*/   /*aucune utilité probablement à retirer*/
 
 .card_line{
   padding-top: 3%;
+}
+
+/*Commentart Section */
+
+.commentary_row{
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 3%;
+}
+
+.commentary_section{
+  text-align: left;
+  text-align: justify;
+  background-color: white;
+  padding: 2%;
+  box-shadow: 3px 2px 4px 2px rgba(16, 137, 46, 0.5);
+}
+
+.commentary_title{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.commentary{
+  margin-top: 2%;
+}
+
+.test {
+  background-color: green;
 }
