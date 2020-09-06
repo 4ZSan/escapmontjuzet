@@ -7,10 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <!-- CSS Perso -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Javascript Perso -->
+    <script src="javascript\js.js"></script>
 
+
+  </head>
+
+
+  <body>
 
     <title>Escape Montjuzet</title>
 
@@ -136,40 +142,176 @@
 
       <!-- Commentary Section -->
 
-      <div class="row section">
+      <div class="row section commentary_section justify-content-center">
+        <div class="col-lg-12">
+          <div class="row rate">
+            <div class="col-lg-12">
+              <span><img src="./images/star.png" class="mr-1" alt="..."></span>
+              <span><img src="./images/star.png" class="mr-1" alt="..."></span>
+              <span><img src="./images/star.png" class="mr-1" alt="..."></span>
+              <span><img src="./images/star.png" class="mr-1" alt="..."></span>
+              <span><img src="./images/empty_star.png" class="mr-1" alt="..."</span>
+            </div>
+          </div>
+          <div class="row commentary_title">
+            <div class="col-lg-12">
+              <span>Excellent</span>
+            </div>
+          </div>
+          <div class="row commentary_content">
+            <div class="col-lg-12">
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</br>
+                Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+          <div class="row commentary_author">
+            <div class="col-lg-12">
+              <span>El Dani</span>
+              <span>-</span>
+              <span>06/09/2020</span>
+            </div>
+          </div>
+          <div class="row commentary_buttons">
+            <div class="col-lg-12">
+              <span class="arrow_button_left"><img src="./images/arrow_left.png" class="mr-1" alt="..."</span>
+              <span class="arrow_button_right"><img src="./images/arrow_right.png" class="mr-1" alt="..."</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Section -->
+
+      <div class="row section2">
         <div class="col-lg-12">
 
               <div class="row">
                 <div class="col-lg-12">
-                  <h2>Votre avis est important, dites nous ce que vous avez pensez de votre aventure !</h2>
+                  <h2>Profitez d'une aventure en pleine nature !</h2>
                 </div>
               </div>
 
-              <div class="row commentary_row">
-                <div class="col-lg-5 commentary_section">
-                  <div class="media">
-                    <img src="..." class="align-self-start mr-3 test" alt="...">
-                    <div class="media-body">
-                      <span class="mt-0 commentary_title">Top-aligned media</span>
-                      <p class="commentary">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</br>
-                        Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-                  </div>
+              <div class="row carousel_row justify-content-center">
+                <div class="col-lg-1 carousel_button">
+                  <span class="arrow_button_right"><img src="./images/arrow_left.png" class="mr-1" alt="..."></span>
                 </div>
-                <div class="col-lg-5 offset-lg-2 commentary_section">
-                  <div class="media">
-                    <img src="..." class="align-self-start mr-3 test" alt="...">
-                    <div class="media-body">
-                      <span class="mt-0 commentary_title">Top-aligned media</span>
-                      <p class="commentary">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</br>
-                        Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-                  </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="./images/test1.jpg" alt="...">
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="./images/test2.jpg" alt="...">
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="./images/test3.jpg" alt="...">
+                </div>
+                <div class="col-lg-1 carousel_button">
+                  <span class="arrow_button_right"><img src="./images/arrow_right.png" class="mr-1" alt="..."></span>
                 </div>
               </div>
-
+<!--
+              <div class="row carousel_row justify-content-center">
+                <div class="col-lg-4 slider_image">
+                  <div class="right_arrow_position"><img class="img-fluid test" src="./images/test1.jpg" alt="..."></div>
+                  <div class="right_arrow_position right_slider_button"><img src="./images/arrow_left.png"  alt="..."></div>
+                </div>
+                <div class="col-lg-4 slider_image">
+                  <div class="right_arrow_position"><img class="img-fluid" src="./images/test2.jpg" alt="..."></div>
+                </div>
+                <div class="col-lg-4 slider_image">
+                  <div class="left_arrow_position"><img class="img-fluid test" src="./images/test3.jpg" alt="..."></div>
+                  <div class="left_arrow_position left_slider_button"><img src="./images/arrow_right.png"  alt="..."></div>
+                </div>
+              </div>
+-->
             </div>
           </div>
+
+
+      <!-- Footer Section -->
+
+      <div class="row justify-content-center footer_section">
+
+        <div class="col-lg-3 footer_section footer_left_section" >
+          <div class="row">
+            <div class="col-lg-3">
+              <img class="img-fluid" src="./images/test3.jpg" alt="..." width="90" height="30">
+            </div>
+            <div class="col-lg-9 footer_title">
+              <h2>Escape Montjuzet</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-3 footer_section footer_middle_section" >
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <h2 class="middle_footer_title footer_title">Nos Escape Game</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 1</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 2</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 3</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 4</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 5</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <span>Nom du jeu 6</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 footer_section footer_right_section " >
+          <div class="row justify-content-center">
+            <div class="col-lg-12 middle_footer_title">
+              <h2>Suivez-Nous !</h2>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                <img class="img-fluid" src="./images/facebook.png" alt="..." width="30" height="30">
+              </div>
+              <div class="col-lg-4">
+                <img class="img-fluid" src="./images/instagram.png" alt="..." width="30" height="30">
+              </div>
+              <div class="col-lg-4">
+                <img class="img-fluid" src="./images/twitter.png" alt="..." width="30" height="30">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
       </div> <!-- end of container -->
@@ -177,12 +319,6 @@
       </div>
 
 
-
-
-
-  </head>
-
-  <body>
 
   </body>
 
