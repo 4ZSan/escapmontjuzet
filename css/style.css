@@ -18,10 +18,35 @@ h2{
   background-position: center;
 }
 
+.title_blue_background{
+  color: #f4f4f4;
+}
+
+.title_white_section{
+  color: #0b5ebc;
+}
+
 /*Navigation*/
 
 .navigation{
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: #fefaf9 !important;
+}
+
+.navbar-nav{
+  width: 100%;
+}
+
+.nav-item{
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  color: #0b5ebc !important;
+}
+
+.nav-item:hover{
+  color : red !important;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #0b5ebc;
 }
 
 /*Title section*/
@@ -48,7 +73,13 @@ h2{
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
-  background-color : #444444;
+  background-color : #0b5ebc;
+}
+
+/*Concept section*/
+
+.concept_section_text{
+  margin-top: 3%;
 }
 
 /*Boxes Sections*/
@@ -63,21 +94,10 @@ h2{
   padding-top: 3%;
 }
 
-
-.red{
-  background-color: red;
-}
-
-.yellow{
-  background-color: yellow;
-}
-
-.blue{
-  background-color: blue;
-}
-
-.green{
-  background-color: green;
+.icon_section_title{
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 
@@ -168,7 +188,7 @@ h2{
 /* Footer Section */
 
 .footer_section{
-  background-color: grey;
+  background-color: #0b5ebc;
   padding-top: 1%;
   padding-bottom: 1%;
 
