@@ -201,3 +201,72 @@ h2{
 .middle_footer_title{
   text-align: center;
 }
+
+
+
+/*******************
+********************
+ Contact page
+ *******************
+ ******************/
+
+ /* Heder section */
+
+ .contact_page_body{
+   margin-right: 0%;
+   margin-left: 0%;
+ }
+
+ .contact_title_section{
+   background-color: #0b5ebc;
+   text-align: center;
+   padding-top: 7%;
+   padding-bottom: 7%;
+ }
+
+ .colored_title{
+   color : white;
+ }
+
+ /* Contact page body */
+
+ .form_section{
+   padding-top : 5%;
+   padding-bottom: 5%;
+   margin: auto;
+ }
+
+ .form{
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+
+ .button_line{
+   margin-top: 4%;
+ }
+
+.form_message{
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
+.btn-primary{
+  background-color: #0b5ebc;
+  font-weight: bold;
+  border-color: #0b5ebc;
+}
+
+.btn-primary:hover{
+  background-color: red;
+  font-weight: bold;
+  border-color: red;
+}
+
+.contact_image{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url('../images/contact_test.png');
+  background-repeat: round;
+
+}
