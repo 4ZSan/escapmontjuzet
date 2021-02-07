@@ -51,6 +51,14 @@ h2{
 
 /*Title section*/
 
+.page_title{
+  font-size: 5.3em;
+}
+
+.page_subtitle{
+  font-size: 3.3em;
+}
+
 .title-section{
   text-align: center;
   padding-top: 15%;
